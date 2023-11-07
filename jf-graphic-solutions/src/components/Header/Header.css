@@ -1,0 +1,18 @@
+.header-img{
+    width: 100vw;
+    height: min-content;
+}
+.header {
+    position: relative;
+  }
+  
+  .header-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .nav {
+    width: 100%;
+    position: absolute;
+    top: 18px;
+    left: 0;
+  }
