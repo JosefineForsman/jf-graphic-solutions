@@ -3,6 +3,7 @@ function Portfolio(){
     return(
         <main>
             <Header/>
+            <h1>Portfolio</h1>
         </main>
 
     )
