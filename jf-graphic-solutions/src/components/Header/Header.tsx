@@ -6,7 +6,7 @@ function Header(){
     return(
         <header>
             <Nav/>
-            <img src={header} alt="the photographer is in action taking photos in the the wild with a nature landscape behind him." className='header-img' />
+            <img src={header} alt="the photographer is in action taking photos in the the nature with a forrest landscape behind him." className='header-img' />
         </header>
     )
 }

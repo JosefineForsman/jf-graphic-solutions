@@ -9,7 +9,7 @@ function Home(){
     
           <main>
             <section>
-              <h2>Våra Tjänster</h2>
+              <h1>Våra Tjänster</h1>
               <p>Här är en lista över tjänster som vi erbjuder:</p>
               <ul>
                 <li>Drönarfotografering</li>

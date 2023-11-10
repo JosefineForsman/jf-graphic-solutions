@@ -20,6 +20,9 @@ li a {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-li a:focus {
-    outline: 2px solid #0077FF; /* Ange en tydlig fokusram */
+.li a:focus,
+.li a:active {
+  outline: 2px solid #0077FF; /* Ange en tydlig fokusram */
+  background-color: #0077FF; /* Färg för att markera fokus eller aktivering */
+  color: #fff; /* Textfärg när länken är i fokus eller aktiverad */
 }
