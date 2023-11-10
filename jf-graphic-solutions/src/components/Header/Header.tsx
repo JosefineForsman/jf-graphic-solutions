@@ -1,5 +1,5 @@
 import './Header.css'
-import header from '../../assets/photo-johnny.png'
+import header from '../../assets/photo-johnny.jpg'
 import Nav from '../Nav/Nav';
 function Header(){
 
