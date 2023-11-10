@@ -7,6 +7,7 @@ function Header(){
         <header>
             <Nav/>
             <img src={header} alt="the photographer is in action taking photos in the the nature with a forrest landscape behind him." className='header-img' />
+            <h1 className='header__title'>JF Graphic Solution</h1>
         </header>
     )
 }

@@ -8,7 +8,7 @@ ul {
     display: flex;
     justify-content: center;
   }
-li a {
+.nav__link {
     padding-right: 5rem;
     text-decoration: none;
     color:white;
@@ -20,8 +20,8 @@ li a {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.li a:focus,
-.li a:active {
+.nav__link:focus,
+.nav__link:active {
   outline: 2px solid #0077FF; /* Ange en tydlig fokusram */
   background-color: #0077FF; /* Färg för att markera fokus eller aktivering */
   color: #fff; /* Textfärg när länken är i fokus eller aktiverad */
