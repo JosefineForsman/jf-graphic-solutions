@@ -1,6 +1,9 @@
+import Header from "../../components/Header/Header";
 function Portfolio(){
     return(
-        <div>Portfolio 1</div>
+        <main>
+            <Header/>
+        </main>
 
     )
 }

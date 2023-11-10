@@ -2,6 +2,7 @@
     background: rgba(30, 30, 30, 0.25);
     display: flex;
     flex-direction: column;
+    /* position: relative; */
 }
 ul {
     list-style: none;
@@ -22,7 +23,29 @@ ul {
 }
 .nav__link:focus,
 .nav__link:active {
-  outline: 2px solid #0077FF; /* Ange en tydlig fokusram */
-  background-color: #0077FF; /* Färg för att markera fokus eller aktivering */
-  color: #fff; /* Textfärg när länken är i fokus eller aktiverad */
+  outline: 2px solid #0077FF;
+  background-color: #0077FF; 
+  color: #fff; 
+}
+.menu-options{
+  width: 2rem;
+  filter:invert(10);
+  display: none;
+}
+.menu-options:hover{
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .menu-options{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 20px;
+  }
+  .nav{
+    background: none;
+  }
+  .nav__link {
+    display:none;
+  }
 }
