@@ -1,5 +1,6 @@
 import './Home.css';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 function Home(){
     return (
         <div>
@@ -10,8 +11,7 @@ function Home(){
           <main>
             <section className='home'>
               <h1 className='text__title'>Welcome to JF Graphic Solutions</h1>
-              <h2 className='text'>  Maybe you are considering taking the step into social media with effective ads?</h2>
-              <h2 className='text'> JF Grafik Solutions is your trusted partner in photography and video production with customized editing for all your business needs.</h2>
+              <h2 className='text'>  Maybe you are considering taking the step into social media with effective ads? JF Graphic Solutions is your trusted partner in photography and video production with customized editing for all your business needs.</h2>
             </section>
             <section className='home__services'>
               <h1 className='text__title'>Our services</h1>
@@ -25,6 +25,7 @@ function Home(){
               </ul>
             </section>
           </main>
+          <Footer/>
         </div>
       );
 }

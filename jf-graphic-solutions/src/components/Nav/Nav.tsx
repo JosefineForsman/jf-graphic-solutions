@@ -11,13 +11,14 @@ function Nav(){
 
     return(
         <nav className='nav'>
-        <ul>
-          <li><a href="/" className='nav__link'>Home</a></li>
-          <li><a href="/portfolio" className='nav__link'>Portfolio</a></li>
-          <li><a href="/contact" className='nav__link'>Contact</a></li>
+        <ul className='nav__ul'>
+          <li className='nav__li'><a href="/" className='nav__link'>Home</a></li>
+          <li className='nav__li'><a href="/portfolio" className='nav__link'>Portfolio</a></li>
+          <li className='nav__li'><a href="/contact" className='nav__link'>Contact</a></li>
         </ul>
-  
-        <img src={hamburger} alt="menu-options" className='menu-options' onClick={toggleMenu} />
+        <button className='nav__button' onClick={toggleMenu} aria-label='Open Menu'>
+            <img src={hamburger} alt="Hamburger Menu" className='menu-options' />
+        </button>
         {isOpen ? <MobilMeny isOpen={isOpen} onClose={toggleMenu} /> : null}
       </nav>
     )

@@ -1,0 +1,77 @@
+.footer{
+    width: 100vw;
+    height: 310px;
+    /* flex-shrink: 0; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: poppins;
+}
+.footer__social-media,
+.footer__site,
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrera innehållet vertikalt */
+}
+.facebook-icon{
+    width: 2rem;
+    padding-right:1rem;
+}
+.instagram-icon{
+    width: 1.8rem;
+    padding-right:1rem;
+}
+.youtube-icon{
+    width: 2rem;
+}
+.footer__li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white; 
+  }
+.footer__ul{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color:white;
+}
+.text__footer{
+    margin:5px;
+}
+.footer__title{
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    letter-spacing: 0.1em;
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    .footer{
+        display: block;
+        height: auto;
+        margin: 3rem 0rem;
+    }
+    .footer__address, .footer__site{
+        display: none;
+    }
+    .footer__title{
+        display: none;
+    }
+    .youtube-icon{
+        width: 1.7rem;
+    }
+    .facebook-icon{
+        width: 1.7rem;
+    }
+    .instagram-icon{
+        width: 1.6rem;
+    }
+  }

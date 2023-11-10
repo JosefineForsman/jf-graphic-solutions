@@ -4,10 +4,18 @@
     flex-direction: column;
     /* position: relative; */
 }
-ul {
+.nav__ul {
     list-style: none;
     display: flex;
     justify-content: center;
+  }
+  .nav__button {
+    background-color: #0077ff00;
+    height: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0; /* För att ta bort knappens standardmarginal */
   }
 .nav__link {
     padding-right: 5rem;

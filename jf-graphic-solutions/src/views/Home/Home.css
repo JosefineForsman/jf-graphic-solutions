@@ -21,6 +21,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding: 2rem;
 }
 .home__services{
     background: rgba(80, 80, 80, 0.48);
@@ -38,6 +39,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.6px;
+list-style: none;
 }
 .home__services__ul{
     display: flex;
@@ -45,3 +47,34 @@ letter-spacing: 0.6px;
     align-items: center;
     padding: 2rem;
 }
+@media (max-width: 700px) {
+    .text__title{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 16px;
+        margin:1rem;
+        padding: 10px;
+        /* padding: 1rem; */
+    }
+    .home__services__options{
+        font-size: 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    .text__title{
+        font-size: 20px;
+        /* text-align: center; */
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .text{
+        font-size: 15px;
+        margin:1rem;
+        padding: 10px;
+        /* padding: 1rem; */
+    }
+    .home__services__options{
+        font-size: 15px;
+    }
+  }
