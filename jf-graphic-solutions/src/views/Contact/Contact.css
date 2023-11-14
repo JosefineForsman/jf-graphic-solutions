@@ -33,6 +33,13 @@ line-height: normal;
     padding-right: 2rem;
     margin-bottom:1rem;
 }
+a.contact__text{
+    color: rgb(60, 106, 205);
+    text-decoration: underline;
+}
+a.contact__text:hover{
+    color: rgb(127, 146, 186);
+}
 .contact__container{
     display: flex;
     flex-direction: column;
