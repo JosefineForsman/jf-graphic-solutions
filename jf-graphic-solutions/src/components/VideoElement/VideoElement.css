@@ -1,0 +1,11 @@
+.video-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-element video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
