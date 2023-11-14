@@ -9,6 +9,12 @@
     display: flex;
     justify-content: center;
   }
+  .logo{
+   position: absolute;
+   left:30px;
+   top:6px;
+    width: 3rem;
+  }
   .nav__button {
     background-color: #0077ff00;
     height: auto;
@@ -55,5 +61,8 @@
   }
   .nav__link {
     display:none;
+  }
+  .logo{
+    width: 2rem;
   }
 }

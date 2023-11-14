@@ -1,5 +1,6 @@
 import './Nav.css'
 import { useState } from 'react';
+import logo from '../../assets/logo-johnny.png'
 import hamburger from '../../assets/hamburger-icon.png'
 import MobilMeny from '../MobilMeny/MobilMeny';
 function Nav(){
@@ -12,6 +13,7 @@ function Nav(){
     return(
         <nav className='nav'>
         <ul className='nav__ul'>
+          <img src={logo} alt="JF Graphic Solution logo" className='logo' />
           <li className='nav__li'><a href="/" className='nav__link'>Home</a></li>
           <li className='nav__li'><a href="/portfolio" className='nav__link'>Portfolio</a></li>
           <li className='nav__li'><a href="/contact" className='nav__link'>Contact</a></li>

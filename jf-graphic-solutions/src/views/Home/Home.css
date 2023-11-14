@@ -39,14 +39,27 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.6px;
-list-style: none;
+/* list-style: none; */
 }
 .home__services__ul{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 2rem;
+    margin-bottom:5rem;
 }
+.text__title-video{
+    text-align: center;
+    color: #FFF;
+    font-family: Questrial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
 @media (max-width: 700px) {
     .text__title{
         font-size: 25px;
@@ -55,7 +68,6 @@ list-style: none;
         font-size: 16px;
         margin:1rem;
         padding: 10px;
-        /* padding: 1rem; */
     }
     .home__services__options{
         font-size: 16px;
@@ -64,7 +76,6 @@ list-style: none;
   @media (max-width: 480px) {
     .text__title{
         font-size: 20px;
-        /* text-align: center; */
         padding: 1rem;
         margin: 1rem;
     }
@@ -72,7 +83,6 @@ list-style: none;
         font-size: 15px;
         margin:1rem;
         padding: 10px;
-        /* padding: 1rem; */
     }
     .home__services__options{
         font-size: 15px;
