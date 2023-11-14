@@ -1,0 +1,9 @@
+.breadcrumb div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .breadcrumb span {
+    margin-top: 5px;
+   }

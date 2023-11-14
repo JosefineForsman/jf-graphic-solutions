@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { useState } from "react";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import DroneImages from "../../components/DroneImages/DroneImages";
 import ProductImages from "../../components/ProductImages/ProductImages";
 import CompanyImages from "../../components/CompanyImages/CompanyImages";
@@ -11,6 +12,7 @@ function Portfolio(){
     return(
         <main>
             <Header/>
+            <Breadcrumbs selectedCategory={selectedCategory} />
             <h1>Portfolio</h1>
             <section>
                 <button onClick={() => setSelectedCategory("drone")}>drone</button>
