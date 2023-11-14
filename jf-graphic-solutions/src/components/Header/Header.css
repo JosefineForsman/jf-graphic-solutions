@@ -18,22 +18,23 @@
   }
 .header__title{
   position: absolute;
-  top:300px;
+  top:550px;
+  font-weight: 500;
   left: 40px;
   color:white;
   color: #FFF;
 
-font-family: Questrial;
+font-family: poppins;
 font-size: 80px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: normal;
 }
 
 @media screen and (max-width: 1247px) {
   .header__title {
     font-size: 55px; /* Justera storleken för mindre skärmar */
-    top: 240px;
+    top: 400px;
   }
   a.nav__link{
     font-size: 16px;
@@ -45,7 +46,7 @@ line-height: normal;
 @media screen and (max-width: 920px) {
   .header__title {
     font-size: 45px; /* Justera storleken för mindre skärmar */
-    top: 210px;
+    top: 300px;
   }
   a.nav__link{
     font-size: 14px;
@@ -54,13 +55,13 @@ line-height: normal;
 @media screen and (max-width: 740px) {
   .header__title {
     font-size: 25px; /* Justera storleken för mindre skärmar */
-    top: 155px;
+    top: 250px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header__title {
     font-size: 20px; /* Justera storleken för ännu mindre skärmar */
-    top:120px;
+    top:180px;
   }
 }

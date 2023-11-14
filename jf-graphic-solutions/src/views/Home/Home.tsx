@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import VideoElement from '../../components/VideoElement/VideoElement';
 function Home(){
     return (
-        <div>
+        <div className='home__container'>
             <Header/>
           <main className='main'>
             <section className='home'>
