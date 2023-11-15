@@ -7,6 +7,7 @@ import ProductImages from "../../components/ProductImages/ProductImages";
 import CompanyImages from "../../components/CompanyImages/CompanyImages";
 import CommercialImages from "../../components/CommerciaIlmages/CommercialImages";
 import NatureImages from "../../components/NatureImages/NatureImages";
+import './Portfolio.css'
 function Portfolio(){
     const [selectedCategory, setSelectedCategory] = useState<string>('');
     return(
@@ -14,12 +15,37 @@ function Portfolio(){
             <Header/>
             <Breadcrumbs selectedCategory={selectedCategory} />
             <h1>Portfolio</h1>
-            <section>
-                <button onClick={() => setSelectedCategory("drone")}>drone</button>
-                <button onClick={() => setSelectedCategory("product")}>product</button>
-                <button onClick={() => setSelectedCategory("company")}>company</button>
-                <button onClick={() => setSelectedCategory("nature")}>nature</button>
-                <button onClick={() => setSelectedCategory("commercial")}>commercial</button>
+            <section>  
+            <button
+            className={`portfolio__button ${selectedCategory === 'drone' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory("drone")}
+            >
+            drone
+            </button>
+            <button
+            className={`portfolio__button ${selectedCategory === 'product' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory("product")}
+            >
+            product
+            </button>
+            <button
+            className={`portfolio__button ${selectedCategory === 'company' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory("company")}
+            >
+            company
+            </button>
+            <button
+            className={`portfolio__button ${selectedCategory === 'nature' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory("nature")}
+            >
+            nature
+            </button>
+            <button
+            className={`portfolio__button ${selectedCategory === 'commercial' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory("commercial")}
+            >
+            commercial
+            </button>
             </section>
             <section>
                 {selectedCategory === "drone" && <DroneImages />}

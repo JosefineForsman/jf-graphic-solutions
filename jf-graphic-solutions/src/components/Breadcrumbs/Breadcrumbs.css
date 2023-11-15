@@ -1,9 +1,21 @@
-.breadcrumb div {
+.breadcrumb {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-   }
-   
-   .breadcrumb span {
-    margin-top: 5px;
-   }
+    justify-content: center;
+}
+.breadcrumb__span{
+    font-family: poppins;
+}
+.breadcrumb__name{
+    font-family: poppins;
+    margin-right:1rem;
+}
+.breadcrumb__name:hover{
+    text-decoration: underline;
+}
+span{
+    color:rgba(255, 255, 255, 0.672);
+    font-family: poppins;
+    margin-right: 1rem;
+}
