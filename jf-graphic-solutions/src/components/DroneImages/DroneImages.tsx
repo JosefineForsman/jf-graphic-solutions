@@ -12,15 +12,13 @@ function DroneImages(){
         <section className='drone-images'>
             <h1>Drone images</h1>
             <article className='image-grid'>
-                <img src={drone1} alt="a picture over nature" />
-                <img src={drone2} alt="a picture on the sky" />
-                <img src={drone3} alt="" />
-                <img src={drone4} alt="" />
-                <img src={drone5} alt="" />
-                <img src={drone6} alt="" />
-                
+                <img src={drone1} alt="Drone view of a picturesque estate with stone facade, capturing a lively crowd gathered for a wedding celebration." />
+                <img src={drone2} alt="Drone perspective capturing an aerial view of a building's architecture and surroundings, emphasizing the scenic details from an elevated position." />
+                <img src={drone3} alt="Aerial view captured directly above the building, highlighting the architectural details and layout from an elevated perspective." />
+                <img src={drone4} alt="Aerial view from a drone capturing Pater Noster Lighthouse and the entire island, offering a different perspective with a comprehensive view of the surroundings." />
+                <img src={drone5} alt="Aerial view from a drone capturing Rudbjerg Knude Fyr, the white lighthouse surrounded by sand and sea." />
+                <img src={drone6} alt="Aerial view from a drone capturing Pater Noster Lighthouse and the entire island, showcasing the unique perspective and surroundings from a different angle." />    
             </article>
-
         </section>
     )
 }
