@@ -12,8 +12,8 @@ function DroneImages(){
         <section className='drone-images'>
             <h1>Drone images</h1>
             <article className='image-grid'>
-                <img src={drone1} alt="" />
-                <img src={drone2} alt="" />
+                <img src={drone1} alt="a picture over nature" />
+                <img src={drone2} alt="a picture on the sky" />
                 <img src={drone3} alt="" />
                 <img src={drone4} alt="" />
                 <img src={drone5} alt="" />

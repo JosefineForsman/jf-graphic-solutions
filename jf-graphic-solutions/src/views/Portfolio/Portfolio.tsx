@@ -17,43 +17,48 @@ function Portfolio(){
             <h1>Portfolio</h1>
             <section>  
             <button
+            aria-label='show portfolio with drone images'
             className={`portfolio__button ${selectedCategory === 'drone' ? 'active' : ''}`}
             onClick={() => setSelectedCategory("drone")}
             >
             drone
             </button>
             <button
+            aria-label='show portfolio with product images'
             className={`portfolio__button ${selectedCategory === 'product' ? 'active' : ''}`}
             onClick={() => setSelectedCategory("product")}
             >
             product
             </button>
             <button
+            aria-label='show portfolio with company images'
             className={`portfolio__button ${selectedCategory === 'company' ? 'active' : ''}`}
             onClick={() => setSelectedCategory("company")}
             >
             company
             </button>
             <button
+            aria-label='show portfolio with nature images'
             className={`portfolio__button ${selectedCategory === 'nature' ? 'active' : ''}`}
             onClick={() => setSelectedCategory("nature")}
             >
             nature
             </button>
             <button
+            aria-label='show portfolio with commercial images'
             className={`portfolio__button ${selectedCategory === 'commercial' ? 'active' : ''}`}
             onClick={() => setSelectedCategory("commercial")}
             >
             commercial
             </button>
             </section>
-            <section>
-                {selectedCategory === "drone" && <DroneImages />}
-                {selectedCategory === "product" && <ProductImages />}
-                {selectedCategory === "company" && <CompanyImages />}
-                {selectedCategory === "nature" && <NatureImages />}
-                {selectedCategory === "commercial" && <CommercialImages />}
-            </section>
+            <section aria-live="polite">
+    {selectedCategory === "drone" && <DroneImages />}
+    {selectedCategory === "product" && <ProductImages />}
+    {selectedCategory === "company" && <CompanyImages />}
+    {selectedCategory === "nature" && <NatureImages />}
+    {selectedCategory === "commercial" && <CommercialImages />}
+</section>
             <Footer/>
         </main>
 
