@@ -1,3 +1,36 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.portfolio__title{
+    text-align: center;
+    color: #FFF;
+    font-family: Questrial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.portfolio__subtitle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-bottom:3rem;
+}
+.portfolio__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
 .portfolio__button{
     width: 276px;
     height: 66px;
@@ -5,16 +38,17 @@
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     border-radius: 11px;
     border:none;
     margin-right: 10px;
     margin-bottom:2rem;
+    text-transform: uppercase;
 }
 .portfolio__button.active {
     background-color: #676464;
-    color: #fff; /* Vit text för kontrast */
+    color: #fff; 
   }
   .portfolio__button:hover{
     background-color: #676464;

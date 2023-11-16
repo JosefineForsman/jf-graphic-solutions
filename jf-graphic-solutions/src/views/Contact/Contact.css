@@ -4,31 +4,30 @@
 }
 .contact__title{
     color: #FFF;
-font-family: Poppins;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .contact__text{
     color: #FFF;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .contact__subtitle{
     color: #FFF;
-font-family: Poppins;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .contact__social-media{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding-right: 2rem;
     margin-bottom:1rem;
@@ -53,4 +52,64 @@ a.contact__text:hover{
 .contact__content{
  background: rgba(80, 80, 80, 0.48);
  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact__social-media {
+        flex-direction: column;
+    }
+    .contact__title {
+        font-size: 20px;
+    }
+    .contact__text {
+        font-size: 16px;
+    }
+    .contact__subtitle{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact__social-media {
+        flex-direction: row;
+    }
+    .contact__title {
+        font-size: 28px;
+    }
+    .contact__text {
+        font-size: 18px;
+    }
+    .contact__subtitle{
+        font-size:24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact__social-media {
+        flex-direction: row;
+    }
+    .contact__title {
+        font-size: 32px;
+    }
+    .contact__text {
+        font-size: 20px;
+    }
+    .contact__subtitle{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact__social-media {
+        flex-direction: row;
+    }
+    .contact__title {
+        font-size: 36px;
+    }
+    .contact__text {
+        font-size: 22px;
+    }
+    .contact__subtitle{
+        font-size:32px;
+    }
 }

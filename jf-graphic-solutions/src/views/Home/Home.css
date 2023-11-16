@@ -4,14 +4,25 @@
     align-items: center;
     justify-content: center;
 }
-.home{
+.home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom:5rem;
-    /* width: 600px; */
-}
+    /* max-height: 400px; */
+    padding-bottom: 5rem;
+  }
+
+  .text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2rem;
+    text-align: center;
+  }
 .text__title{
     color: #FFF;
 font-family: Questrial;
@@ -21,15 +32,7 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 2px;
 }
-.text{
-    color: #FFF;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 2rem;
-}
+
 .home__services{
     background: rgba(80, 80, 80, 0.48);
     display: flex;
@@ -95,3 +98,4 @@ letter-spacing: 0.6px;
         font-size: 15px;
     }
   }
+  
