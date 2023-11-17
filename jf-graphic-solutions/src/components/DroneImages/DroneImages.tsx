@@ -10,7 +10,7 @@ function DroneImages(){
 
     return(
         <section className='drone-images'>
-            <h1>Drone images</h1>
+            <h1 className='portfolio__title'>Drone images</h1>
             <article className='image-grid'>
                 <img src={drone1} alt="Drone view of a picturesque estate with stone facade, capturing a lively crowd gathered for a wedding celebration." />
                 <img src={drone2} alt="Drone perspective capturing an aerial view of a building's architecture and surroundings, emphasizing the scenic details from an elevated position." />
