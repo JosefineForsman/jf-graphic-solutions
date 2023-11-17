@@ -23,8 +23,8 @@ function App() {
 
   return (
     <div className="app">
-    <RouterProvider router={router} />
-  </div>
+      <RouterProvider router={router} />
+    </div>
   )
 }
 

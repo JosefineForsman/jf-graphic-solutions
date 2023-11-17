@@ -1,16 +1,15 @@
 .video-element {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
   }
   
   .video-element video {
     width: 50%;
     max-width: 350px;
     height: auto;
-    padding: 3rem;
+    margin:4rem;
+    border-radius: 10px;
   }
   .video-element__text{
     font-family: poppins;
