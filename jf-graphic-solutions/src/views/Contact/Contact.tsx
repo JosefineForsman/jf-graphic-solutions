@@ -5,14 +5,18 @@ import youtube from '../../assets/youtube.svg'
 import './Contact.css'
 import Footer from "../../components/Footer/Footer"
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs"
+import Form from "../../components/Form/Form"
 function Contact() {
   return (
     <main className="contact">
       <Header/>
+
       <section className="contact__container">
         <h1 className="text__title">Contact us:</h1>
         <Breadcrumbs/>
         <h2 className="contact__subtitle">Do you want to get in touch with us? Here are our contact details:</h2>
+      <section className="contact__form">
+        <Form/> 
         <article className="contact__content"> 
         <section>
           <h2 className="contact__title">Email</h2>
@@ -57,6 +61,7 @@ function Contact() {
           </aside>
         </section>
         </article>
+    </section>
       </section>
       <Footer/>
     </main>

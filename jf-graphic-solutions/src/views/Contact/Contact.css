@@ -3,20 +3,22 @@
     margin-right:2rem;
 }
 .contact__title{
-    color: #FFF;
+    color: #ffffffc3;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom:1rem;
 }
 .contact__text{
-    color: #FFF;
+    color: #ffffffbc;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
+    margin-bottom:1rem;
 }
 .contact__subtitle{
     color: #FFF;
@@ -37,7 +39,7 @@
     margin-bottom:1rem;
 }
 a.contact__text{
-    color: rgb(60, 106, 205);
+    color: rgb(127, 162, 236);
     text-decoration: underline;
 }
 a.contact__text:hover{
@@ -46,7 +48,7 @@ a.contact__text:hover{
 .contact__container{
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    width: 1200px;
     align-items: center;
     justify-content: center;
 }
@@ -56,28 +58,17 @@ a.contact__text:hover{
     align-items: center;
 }
 .contact__content{
-    background: rgba(80, 80, 80, 0.48);
+    background: rgb(80, 80, 80);
     padding: 2rem;
+    width: 50%;
+}
+.contact__form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-    .contact__social-media {
-        flex-direction: column;
-    }
-    .contact__title {
-        font-size: 20px;
-        margin-bottom:1rem;
-    }
-    .contact__text {
-        font-size: 16px;
-        margin-bottom:1rem;
-    }
-    .contact__subtitle{
-        font-size: 19px;
-        margin-bottom:1rem;
-        padding: 1rem;
-    }
-}
+
 /* 
 @media only screen and (min-width: 768px) {
     .contact__social-media {
@@ -94,7 +85,7 @@ a.contact__text:hover{
     }
 } */
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .contact__social-media {
         display: flex;
         flex-direction: row;
@@ -112,4 +103,22 @@ a.contact__text:hover{
     .contact__subtitle{
         font-size:25px;
     }
-}
+} */
+/* @media only screen and (max-width: 600px) {
+    .contact__social-media {
+        flex-direction: column;
+    }
+    .contact__title {
+        font-size: 20px;
+        margin-bottom:1rem;
+    }
+    .contact__text {
+        font-size: 16px;
+        margin-bottom:1rem;
+    }
+    .contact__subtitle{
+        font-size: 19px;
+        margin-bottom:1rem;
+        padding: 1rem;
+    }
+} */
