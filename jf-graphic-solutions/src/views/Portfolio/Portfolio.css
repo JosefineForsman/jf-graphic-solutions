@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 .portfolio__subtitle{
     color: #FFF;
@@ -23,6 +23,7 @@
     line-height: normal;
     letter-spacing: 0.6px;
     text-align: center;
+    margin-top:2rem;
     margin-bottom:3rem;
 }
 .portfolio__container{
@@ -31,6 +32,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top:1rem;
+    margin-bottom:2rem;
 
 }
 .portfolio__button{

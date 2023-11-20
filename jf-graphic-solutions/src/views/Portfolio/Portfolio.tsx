@@ -13,8 +13,8 @@ function Portfolio(){
     return(
         <main className="portfolio">
             <Header/>
-            <Breadcrumbs selectedCategory={selectedCategory} />
             <h1 className="portfolio__title" aria-label="Portfolio Main Title">Portfolio</h1>
+            <Breadcrumbs selectedCategory={selectedCategory} />
             <h2 className="portfolio__subtitle">Explore our portfolio by selecting a category below to see more images.</h2>
             <section className="portfolio__container">  
             <button
