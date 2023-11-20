@@ -6,7 +6,7 @@ interface MobileMenuProps {
     onClose: () => void;
   }
 function MobilMeny({ isOpen, onClose}: MobileMenuProps){
-
+  
 
     return(
         <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>

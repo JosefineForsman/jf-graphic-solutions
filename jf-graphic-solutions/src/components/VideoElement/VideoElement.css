@@ -14,6 +14,7 @@
   .video-element__text{
     font-family: poppins;
     padding: 2rem;
+    margin:1rem;
     width: 500px;
   }
 
@@ -29,5 +30,6 @@
    .video-element__text{
     width: 100%;
     padding: 2rem;
+    margin:1rem;
    }
   }

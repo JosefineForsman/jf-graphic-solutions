@@ -1,5 +1,4 @@
 .mobile-menu {
-    /* position: relative; */
     position: fixed;
     top: 0;
     left: 0;
@@ -14,6 +13,7 @@
     transform: translateY(-100%);
     transition: transform 0.3s ease-out;
   }
+  
   .close-button {
     background: none;
     border: none;
@@ -35,9 +35,7 @@
   }
   
   a.mobil__nav__link {
-    /* margin-top: 2rem; */
     padding: 1rem;
-    /* margin: 2rem; */
     text-decoration: none;
     color: white;
     font-family: Poppins;
@@ -46,7 +44,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  
+ 
   .mobil__nav__link:focus,
   .mobil__nav__link:active {
     outline: 2px solid #0077FF;

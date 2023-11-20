@@ -5,7 +5,7 @@
 .contact__title{
     color: #FFF;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -21,10 +21,14 @@
 .contact__subtitle{
     color: #FFF;
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    padding:1rem;
+    width: 100%;
 }
 .contact__social-media{
     display: flex;
@@ -43,6 +47,8 @@ a.contact__text:hover{
     display: flex;
     flex-direction: column;
     max-width: 1000px;
+    align-items: center;
+    justify-content: center;
 }
 .contact{
     display: flex;
@@ -50,8 +56,8 @@ a.contact__text:hover{
     align-items: center;
 }
 .contact__content{
- background: rgba(80, 80, 80, 0.48);
- padding: 2rem;
+    background: rgba(80, 80, 80, 0.48);
+    padding: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,30 +66,19 @@ a.contact__text:hover{
     }
     .contact__title {
         font-size: 20px;
+        margin-bottom:1rem;
     }
     .contact__text {
         font-size: 16px;
+        margin-bottom:1rem;
     }
     .contact__subtitle{
         font-size: 19px;
+        margin-bottom:1rem;
+        padding: 1rem;
     }
 }
-
-@media only screen and (min-width: 600px) {
-    .contact__social-media {
-        flex-direction: row;
-    }
-    .contact__title {
-        font-size: 28px;
-    }
-    .contact__text {
-        font-size: 18px;
-    }
-    .contact__subtitle{
-        font-size:24px;
-    }
-}
-
+/* 
 @media only screen and (min-width: 768px) {
     .contact__social-media {
         flex-direction: row;
@@ -97,19 +92,24 @@ a.contact__text:hover{
     .contact__subtitle{
         font-size: 28px;
     }
-}
+} */
 
 @media only screen and (min-width: 992px) {
     .contact__social-media {
+        display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .contact__title {
-        font-size: 36px;
+        font-size: 30px;
+        margin-bottom: 1rem;
     }
     .contact__text {
-        font-size: 22px;
+        font-size: 18px;
+        margin-bottom: 1rem;
     }
     .contact__subtitle{
-        font-size:32px;
+        font-size:25px;
     }
 }

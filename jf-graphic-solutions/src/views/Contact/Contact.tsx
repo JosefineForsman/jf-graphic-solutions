@@ -10,8 +10,8 @@ function Contact() {
     <main className="contact">
       <Header/>
       <section className="contact__container">
-      <Breadcrumbs/>
         <h1 className="text__title">Contact us:</h1>
+        <Breadcrumbs/>
         <h2 className="contact__subtitle">Do you want to get in touch with us? Here are our contact details:</h2>
         <article className="contact__content"> 
         <section>

@@ -44,24 +44,23 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    /* border-radius: 11px; */
     border:none;
     margin-right: 10px;
     margin-bottom:1rem;
     text-transform: uppercase;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
 }
-/* .portfolio__button.active {
-    background-color: #676464;
-    color: #fff; 
-  } */
+
   .portfolio__button:hover{
-    /* lägg till glaseffect? */
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-
     cursor: pointer;
-
   }
 
 @media (max-width: 600px) {

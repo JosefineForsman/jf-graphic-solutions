@@ -1,8 +1,9 @@
 .breadcrumb {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .breadcrumb__span{
     font-family: poppins;
