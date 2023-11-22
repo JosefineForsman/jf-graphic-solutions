@@ -2,7 +2,7 @@ import './Form.css'
 import { ZodType, z } from 'zod';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import error from '../../assets/error-svgrepo-com (2).svg'
 
 type FormData = {
@@ -13,6 +13,8 @@ type FormData = {
 }
 
 function Form() {
+    const [notSavedFormData, setNotSavedFormData] = useState(false);
+
     const schema : ZodType<FormData> = z.object({
         firstName: z.string().min(2).max(30),
         lastName:z.string().min(2).max(30),
@@ -25,20 +27,29 @@ const {register, handleSubmit, formState:{errors}} = useForm<FormData>({resolver
 const submitData = (data: FormData) =>{
     console.log('it worked', data)
 }
-const handleOnBeforeUnload = (event: BeforeUnloadEvent) => {
-    event.preventDefault();
-    event.returnValue = '';
-  }
 
   useEffect(() => {
+    const handleOnBeforeUnload = (event: BeforeUnloadEvent) => {
+
+        if( notSavedFormData ){
+            event.preventDefault();
+            event.returnValue = '';
+        }    
+      }
     window.addEventListener('beforeunload', handleOnBeforeUnload);
     return () => {
       window.removeEventListener('beforeunload', handleOnBeforeUnload);
     };
-  }, []);
+  }, [notSavedFormData]);
+
+  function inputChange(){
+    if(!notSavedFormData){
+        setNotSavedFormData(true)
+    }
+  }
 
   return (
-      <form  className='form' onSubmit={handleSubmit(submitData)}>
+      <form  onChange={inputChange} className='form' onSubmit={handleSubmit(submitData)}>
         <article className='form__container'>
             <label className='form-label' htmlFor="firstname">First Name:</label>
             <input className='form-input' id ='firstname' type="text" {...register('firstName')}/>
