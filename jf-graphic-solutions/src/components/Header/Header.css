@@ -91,7 +91,7 @@
 }
 @media screen and (max-width: 740px) {
   .header__title {
-    font-size:6vmin; /* Justera storleken för mindre skärmar */
+    font-size:6vmin; 
   }
   .header__subtitle{
     font-size: 16px;
@@ -103,8 +103,7 @@
 
 @media screen and (max-width: 500px) {
   .header__title {
-    font-size: 30px; /* Justera storleken för ännu mindre skärmar */
-    /* top:15%; */
+    font-size: 30px; 
   }
   .header__subtitle{
     font-size: 1rem;

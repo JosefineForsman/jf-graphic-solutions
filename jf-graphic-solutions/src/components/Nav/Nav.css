@@ -28,7 +28,7 @@
     border: none;
     display: flex;
     align-items: center;
-    padding: 0; /* För att ta bort knappens standardmarginal */
+    padding: 0; 
   }
 .nav__link {
     padding-right: 5rem;

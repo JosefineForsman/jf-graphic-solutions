@@ -17,7 +17,7 @@
     width: 100%;
    }
    
-   .form__container{
+.form__container{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -25,7 +25,7 @@
       width: 100%;
    }
    
-   .form-input {
+.form-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 1rem;
@@ -97,5 +97,8 @@
       padding: 1rem;
       font-size: 1.2rem;
       width: 100%;
+    }
+    .errors{
+      font-size: 13px;
     }
  }

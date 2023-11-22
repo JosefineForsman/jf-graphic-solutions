@@ -15,8 +15,6 @@
   .video-element__text{
     font-family: poppins;
     padding: 0rem 2rem;
-    /* margin:1rem; */
-    /* width: 500px; */
     margin: 2rem;
   }
   
@@ -31,5 +29,8 @@
     .video-element__text {
       padding: 2rem;
       margin: 1rem;
+    }
+    .video-container{
+      margin-bottom: 2rem;
     }
   }

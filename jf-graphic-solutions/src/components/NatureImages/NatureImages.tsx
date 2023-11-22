@@ -1,4 +1,3 @@
-import './NatureImages.css'
 import nature1 from '../../assets/nature1.jpg'
 import nature2 from '../../assets/nature2.jpg'
 import nature3 from '../../assets/nature3.jpg'

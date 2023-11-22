@@ -1,4 +1,3 @@
-import './CommercialImages.css'
 import commercial1 from '../../assets/commercial1.jpg';
 import commercial2 from '../../assets/commercial2.jpg';
 import commercial3 from '../../assets/commercial3.jpg';
