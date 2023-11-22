@@ -13,13 +13,12 @@ function Home(){
             <section className='home'>
               <img src={action} alt="" className='action' />
                 <aside className='home__info'>
-                  <Link to=
-                  '/portfolio'>
-                  </Link>
                     <hr  className='home__info-hr'/>
                     <h2 className='text'>  Maybe you are considering taking the step into social media with effective ads? JF Graphic Solutions is your trusted partner in photography and video production with customized editing for all your business needs.</h2>
                     <hr  className='home__info-hr'/>
+                    <Link to='/portfolio'>
                     <button className='home__button'>Go to Portfolio</button>
+                  </Link>
                 </aside>
             </section>
             <h1 className='text__title-video'>Commercial Video</h1>

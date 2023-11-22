@@ -5,3 +5,6 @@ body{
     color:white;
 
 }
+*:focus{
+    outline: 3px solid rgb(54, 54, 246);
+}

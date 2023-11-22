@@ -10,6 +10,9 @@
     padding: 1rem;
     width: 100%;
   }
+  .nav__link.active{
+    color: red;
+  }
   .logo{
    position: absolute;
    left:30px;

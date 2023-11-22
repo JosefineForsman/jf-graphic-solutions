@@ -1,19 +1,55 @@
 .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:25px;
     width: 100%;
     height: 310px;
-    /* flex-shrink: 0; */
+    justify-content: center;
     background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-family: poppins;
 }
 .footer__social-media,
-.footer__site,
-.footer__address {
+.footer__site {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrera innehållet vertikalt */
+  align-items: flex-start;
+  align-items: center; 
+}
+.footer__social-media{
+    border-bottom:0;
+    align-items: center;
+    justify-self: center;
+    /* margin-left:4rem; */
+}
+a.footer__site{
+    background-color: aliceblue;
+}
+.footer__address-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.footer__address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.footer__contact-text{
+    width: 50%;
+}
+.contact__social-media{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom:1rem;
+    width: 100%;
+}
+.iphone-icon{
+    width: 2rem;
+    padding-right: 1rem;
+
 }
 .facebook-icon{
     width: 2rem;
@@ -30,12 +66,21 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .footer__li:hover{
+    color: blue;
+    background-color: aliceblue;
   }
   
 a {
     text-decoration: none;
     list-style: none;
     color: white; 
+    align-items: center;
   }
 .footer__ul{
     margin:0;
@@ -48,9 +93,14 @@ a {
 }
 .footer__title{
     text-transform: uppercase;
-    /* font-weight: 600; */
     letter-spacing: 0.1em;
     font-size: 18px;
+    margin-bottom:2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.contact__text{
+  font-size: 17px;
 }
 
 @media (max-width: 700px) {
@@ -74,4 +124,20 @@ a {
     .instagram-icon{
         width: 1.6rem;
     }
+    .contact__social-media{
+        width:85%;
+        justify-content: flex-start;
+    }
+    a.contact__text{
+        font-size: 14px;
+    }
+    .footer__social-media{
+        width: 100%;
+        margin:0;
+    }
+  }
+  @media (max-width: 1000px) {
+   .footer{
+    font-size: 16px;
+   }
   }
