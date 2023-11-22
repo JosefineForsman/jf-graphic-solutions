@@ -11,9 +11,7 @@ function Contact() {
         <h1 className="text__title">Contact us:</h1>
         <Breadcrumbs/>
         <h2 className="contact__subtitle">Do you want to get in touch with us? Send us a message:</h2>
-      <section className="contact__form">
         <Form/> 
-       </section>
       </section>
       <Footer/>
     </main>

@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 500px;
     margin: 0 auto;
     padding: 1rem;
+    align-items: center;
  }
  
  .form-label {
     margin-bottom: 10px;
     font-family: poppins;
     font-weight: 400;
-    color:black;
+    color:rgb(255, 255, 255);
     align-self: flex-start;
-    /* margin-left:3rem; */
+    width: 100%;
    }
    
- 
    .form__container{
       display: flex;
       flex-direction: column;
@@ -26,15 +26,14 @@
    }
    
    .form-input {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 1rem;
     border-radius: 5px;
     border: 1px solid gray;
-    /* border-bottom: 1px solid rgb(204, 204, 204); */
  }
  .error-icon{
-   width: 1rem;
+   width: 2rem;
    margin-right: 1rem;
  }
  textarea{
@@ -43,7 +42,7 @@
  }
  .form-input-textarea{
    height: 100px;
-   width: 80%;
+   width: 100%;
    padding: 0;
    margin: 0;
 
@@ -57,20 +56,46 @@
  }
  
  .form-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+   padding: 10px 20px;
+   width: 100%;
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 2rem;
  }
  
  .form-button:hover {
     background-color: #0056b3;
  }
  .errors{
-   color:red;
+   color:rgba(255, 0, 0, 0.794);
    display: flex;
    align-items: center;
    margin-bottom:1rem;
+ }
+
+ .form-input,
+.form-button {
+    box-sizing: border-box;
+}
+ @media only screen and (max-width: 700px) {
+   .form-input,
+   .form-label {
+     width: 100%;
+     margin: 1rem 0;
+   }
+   .form__container{
+      width: 100%;
+   }
+   .form{
+      margin: 1rem;
+      width: 100%;
+   }
+   .form-button {
+      padding: 1rem;
+      font-size: 1.2rem;
+      width: 100%;
+    }
  }
