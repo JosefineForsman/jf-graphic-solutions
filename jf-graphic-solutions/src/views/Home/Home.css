@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .home {
-    max-width: 1000px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@
     font-weight: 400;
     letter-spacing: 2px;
     padding:2rem;
-    width: 100%;
+    /* width: 100%; */
     padding: 1rem;
   }
 
@@ -157,6 +157,7 @@
         align-items: center;
         justify-content: center;
         margin:1rem;
+        width: 50%;
     }
     .action{
         width: 100%;
@@ -195,6 +196,9 @@
     }
     .header__span{
         margin:0;
+    }
+    .home{
+        width: 50%;
     }
   }
   

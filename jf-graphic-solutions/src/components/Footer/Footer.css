@@ -121,6 +121,8 @@ a.contact__text:hover{
         display: block;
         height: auto;
         margin: 3rem 0rem;
+        
+        /* grid-template-columns: 1fr; */
     }
     .footer__address, .footer__site{
         display: none;
@@ -145,12 +147,17 @@ a.contact__text:hover{
         font-size: 14px;
     }
     .footer__social-media{
-        width: 100%;
-        margin:0;
+       display: flex;
+       align-items: center;
+       width: 100%;
     }
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 900px) {
    .footer{
     font-size: 16px;
+    grid-template-columns: 1fr 1fr;
+   }
+   .footer__site{
+    display: none;
    }
   }
