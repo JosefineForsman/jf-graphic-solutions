@@ -8,28 +8,28 @@
     width: 50%;
     max-width: 350px;
     height: auto;
-    margin:4rem;
+    margin:3rem;
     border-radius: 10px;
   }
+  
   .video-element__text{
     font-family: poppins;
-    padding: 2rem;
-    margin:1rem;
-    width: 500px;
+    padding: 0rem 2rem;
+    /* margin:1rem; */
+    /* width: 500px; */
+    margin: 2rem;
   }
+  
 
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
    .video-element{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column-reverse;
    }
-   .video-element video{
-    width: 100%;
-   }
-   .video-element__text{
-    width: 100%;
-    padding: 2rem;
-    margin:1rem;
-   }
+    .video-element video {
+      width: 100%;
+    }
+    .video-element__text {
+      padding: 2rem;
+      margin: 1rem;
+    }
   }
