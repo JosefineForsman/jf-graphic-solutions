@@ -37,7 +37,6 @@
   .home__info-hr{
     width: 200px;
     border: 1px solid #276eb1;
-
   }
 
   .home__button:hover{
@@ -48,8 +47,6 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-
-    /* align-items: center; */
   }
   .action{
     width: 50%;
@@ -88,6 +85,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .home__services{
@@ -97,6 +95,14 @@
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
 }
 .home__services__options{
     color: #FFF;
@@ -124,7 +130,11 @@
     line-height: normal;
     letter-spacing: 2px;
     margin-top:4rem;
-
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (max-width: 700px) {

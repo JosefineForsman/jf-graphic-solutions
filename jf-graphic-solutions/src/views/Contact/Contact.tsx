@@ -7,15 +7,13 @@ function Contact() {
   return (
     <main className="contact">
       <Header/>
-
       <section className="contact__container">
         <h1 className="text__title">Contact us:</h1>
         <Breadcrumbs/>
-        <h2 className="contact__subtitle">Do you want to get in touch with us? Here are our contact details:</h2>
+        <h2 className="contact__subtitle">Do you want to get in touch with us? Send us a message:</h2>
       <section className="contact__form">
         <Form/> 
-       
-    </section>
+       </section>
       </section>
       <Footer/>
     </main>

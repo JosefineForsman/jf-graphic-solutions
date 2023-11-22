@@ -102,6 +102,19 @@ a {
 .contact__text{
   font-size: 17px;
 }
+.social-media-icon{
+    width: 2rem;
+    margin-right:2rem;
+}
+a.contact__text{
+    color: rgb(127, 162, 236);
+    text-decoration: underline;
+    width: 100%;
+}
+a.contact__text:hover{
+    color: rgb(127, 146, 186);
+}
+
 
 @media (max-width: 700px) {
     .footer{
