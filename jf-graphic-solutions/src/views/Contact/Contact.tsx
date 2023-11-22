@@ -1,7 +1,4 @@
 import Header from "../../components/Header/Header"
-import facebook from '../../assets/facebook.svg'
-import instagram from '../../assets/instagram.svg'
-import youtube from '../../assets/youtube.svg'
 import './Contact.css'
 import Footer from "../../components/Footer/Footer"
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs"
