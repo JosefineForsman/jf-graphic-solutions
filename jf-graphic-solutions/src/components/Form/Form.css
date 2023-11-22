@@ -13,16 +13,10 @@
     font-weight: 400;
     color:black;
     align-self: flex-start;
-    margin-left:3rem;
+    /* margin-left:3rem; */
    }
    
-   .form-input:valid {
-      border-color: green;
-      /* color: green; */
-   }
-   .form-input.invalid {
-      border-color: red;
-   }
+ 
    .form__container{
       display: flex;
       flex-direction: column;
@@ -34,10 +28,22 @@
    .form-input {
     width: 80%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     border-radius: 5px;
-    border:none;
-    border-bottom: 1px solid rgb(204, 204, 204);
+    border: 1px solid gray;
+    /* border-bottom: 1px solid rgb(204, 204, 204); */
+ }
+ textarea{
+   margin-bottom:1rem;
+   width: 80%;
+ }
+ .form-input-textarea{
+   height: 100px;
+   width: 80%;
+   padding: 0;
+   margin: 0;
+
+   margin-bottom:1rem;
  }
  .form-title{
     color:black;
