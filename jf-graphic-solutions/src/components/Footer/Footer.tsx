@@ -53,11 +53,11 @@ function Footer(){
             <section className='footer__address'>
                 <h2 className='footer__title'>Contact</h2>
               <article className='footer__address-container'>
-                <img src={iphone} alt="" className='iphone-icon'/>
+                <img src={iphone} alt="Iphone icon"  className='iphone-icon'/>
                 <p className='footer__contact-text'>+46 761 60 34 27</p>
               </article>
               <article className='footer__address-container'>
-                <img src={mail} alt="" className='iphone-icon'/>
+                <img src={mail} alt="Mail icon"  className='iphone-icon'/>
                 <p className='footer__contact-text'>johnny@jfgraphicsolutions.com</p>
               </article>
             </section>    
