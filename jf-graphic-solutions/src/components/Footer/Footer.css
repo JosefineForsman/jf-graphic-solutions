@@ -71,8 +71,7 @@ a.footer__site{
     font-size: 18px;
   }
   .footer__li:hover{
-    color: blue;
-    background-color: aliceblue;
+    color: rgb(38, 38, 57);
   }
   
 a {

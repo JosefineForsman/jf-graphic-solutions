@@ -34,11 +34,8 @@
     color:white;
     margin-top:0;
     font-weight: 300;
-    /* width: 100%; */
-    /* margin-left:6rem; */
   }
 .header__title{
-  /* position: absolute; */
   top:60%;
   left:10%;
   font-weight: 500;
@@ -48,14 +45,12 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom:1rem;
-  /* width: 100%; */
-  /* margin-left: 10rem; */
   
 }
 
 @media screen and (max-width: 1247px) {
   .header__title {
-    font-size: 5vmin; /* Justera storleken för mindre skärmar */
+    font-size: 5vmin;
     top:48%;
   }
   a.nav__link{
@@ -73,7 +68,7 @@
 
 @media screen and (max-width: 920px) {
   .header__title {
-    font-size: 5vmin; /* Justera storleken för mindre skärmar */
+    font-size: 5vmin;
   }
   a.nav__link{
     font-size: 1.4vmin;
@@ -83,7 +78,6 @@
   }
   .header{
     height: 50vh;
-    
     justify-content: left;
     padding-top:10rem;
     margin-bottom: 2rem;
@@ -108,10 +102,11 @@
   .header__subtitle{
     font-size: 1rem;
     padding: 1rem;
+    margin:1rem;
   }
   .header{
     height: 28vh;
-    border-bottom: 0.5px solid #4B8CC8;;
+    border-bottom: 0.5px solid #4B8CC8;
   }
   .header-img{
     display: none;
